@@ -1,0 +1,14 @@
+{
+  "name": "gitpractice",
+  "version": "1.0.0",
+  "main": "radio.spec.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.61.0",
+    "@types/node": "^25.9.3"
+  }
+}
