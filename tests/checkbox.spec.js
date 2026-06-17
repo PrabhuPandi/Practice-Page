@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('checkbox @ui', async ({ page }) => {
+test('checkbox @smoke', async ({ page }) => {
     await page.goto('https://rahulshettyacademy.com/AutomationPractice/');
     const Op1 = page.locator('#checkBoxOption1');
     await expect(Op1).toBeVisible();
