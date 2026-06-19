@@ -35,8 +35,6 @@ test.describe('webtable', async () => {
         console.log(`itmprc1:${itmprc1}`);
         expect(itmprc1).toEqual(colnames);
 
-
-
     })
     test('tablewithcheckbox', async ({ page }) => {
 
